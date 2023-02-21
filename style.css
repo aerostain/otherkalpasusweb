@@ -1,0 +1,411 @@
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+html{
+    scroll-behavior:smooth;    
+}
+
+::-webkit-scrollbar {
+    display: none;    
+}
+
+body{
+margin:0;
+padding:0;
+background:white;
+height: 300vh;
+}
+
+body::-webkit-scrollbar {
+    width: 1em;
+}
+
+.header{
+    background: url(img/backc.jpg) no-repeat center center;
+    background-size:cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.logo{
+    width: 50%;
+    height: 100%;
+}
+
+.logo img{
+    height: 15%;
+    width: auto;
+    padding:30px 0 0 30px ;
+    opacity: 75%;
+}
+
+.redes{    
+    width: 50%;
+    height: 100%;    
+    display: flex;
+    justify-content:center;
+    align-items:end;
+    flex-direction: column;    
+    gap: 5%;
+}
+
+.redes img{
+    height: 5%;
+    width: auto;
+    /* padding: 30px 30px 0 0 ; */
+    padding-right: 5%;
+    opacity: 90%;
+}
+
+.lay0{
+    position: sticky;
+    top: 0;
+    background: rgb(0, 0, 0);
+    height: 7vh;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.lay1{
+    height: 100%;
+    width: 90%;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin: 0;
+    padding: 0;
+}
+
+.lay2{
+    height: 100%;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    /* background: greenyellow; */
+}
+
+.lay2b{
+    height: 100%;
+    width: 25%;
+    margin: 0;
+    padding: 0;
+    /* background: blue; */
+}
+
+.lay3{
+    height: 100%;
+    width: auto;
+    /* background: rgb(137, 43, 226); */
+    z-index: 200;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.lay3b{
+    height: 100%;
+    width: auto;
+    /* background: rgb(13, 100, 210); */
+    z-index: 200;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.lay4a{
+    height: 100%;
+    width: 20%;
+    /* background: rgb(226, 240, 36); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lay4a img{
+    height: auto;
+    width: 90%;
+}
+
+.lay4b{
+    height: 100%;
+    width: 60%;
+    padding-left: 5%;
+    /* background: rgb(240, 36, 131); */
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    font-family:'calibri';
+    font-weight: bold;
+    font-size: 2em;
+    color: white;    
+}
+
+.s3{
+    position: sticky;
+    top:7vh;
+    height:7vh;
+    background: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.bancosdiv{     
+    background: rgb(0, 0, 0);
+    background-size: cover;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bancos{
+    height: 80%;
+    width:auto;       
+}
+
+.body{
+height: 180vh;
+}
+
+.footer{
+    height: 15vh;
+    width: auto;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot1{
+    height: 100%;
+    width: 70%;
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footlogo{
+    height: 100%;
+    width: 25%;
+    /* background: blue; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.footlogoimg{
+    height: 60%;
+}
+
+.footlink1{
+    height: 100%;
+    width: 50%;
+    /* background: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footlink1_1{
+height: 40%;
+width: 100%;
+/* background: greenyellow; */
+display: flex;
+justify-content: center;
+align-items: end;
+font-family: 'calibri';
+font-size: 1.2em;
+color: white;
+}
+.footlink1_2{
+    height: 60%;
+    width: 100%;
+    /* background: tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;  
+}
+
+.footlink1_2img{
+    height: 40%;
+    width: auto;
+}
+
+.footlink2{
+    height: 100%;
+    width: 25%;
+    /* background: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+}
+
+.footlink2_1{
+    height: 55%;
+    clip-path: circle(50%);
+}
+
+@media (max-width: 1024px) {
+
+    body{
+        height: 100vh;
+        }
+
+    .header{
+        background: url(img/backc.jpg) no-repeat center center;
+        background-size:cover;
+        height: 30vh;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    .logo img{
+        height: 25%;
+        width: auto;
+        padding:20px 0 0 20px ;
+        opacity: 75%;
+    }
+
+    .redes{    
+        width: 50%;
+        height: 100%;    
+        display: flex;
+        justify-content:center;
+        align-items:end;
+        flex-direction: column;    
+        gap: 10%;
+    }
+    
+    .redes img{
+        height: 10%;
+        width: auto;
+        /* padding: 30px 30px 0 0 ; */
+        padding-right: 5%;
+        opacity: 90%;
+    }
+
+    .lay3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     flex-direction: column;
+    }
+
+    .lay3b{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     flex-direction: column;
+    }
+
+    .lay4a{
+        height: 70%;
+        width: auto;
+    }
+    
+    .lay4a img{
+        height: 60%;
+        width: auto;
+    }
+    
+    .lay4b{
+        height: 30%;
+        width: auto;
+        font-size: 1.3rem;
+        color: white;    
+    }
+
+    .s3{
+        position: sticky;
+        top:7vh;
+        height:5vh;
+    }
+
+    .bancos{
+        height: auto;
+        width:90%;       
+    }
+
+    .body{
+        height: 180vh;
+        }
+        
+    .footer{
+    height: 10vh;
+    }
+    
+    .foot1{
+        height: 100%;
+        width: 80%;
+        /* background: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+.footlink1_1{
+    height: 50%;
+    font-size: 1.1em;
+text-align: center;
+}
+.footlink1_2{
+    height: 50%;
+    gap: 12%;  
+}
+
+.footlink1_2img{
+    height: 45%;
+    width: auto;
+}
+
+.footlink2{
+    height: 100%;
+    width: 25%;
+    /* background: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;      
+}
+
+.footlink2_1{
+    height: 55%;
+    clip-path: circle(50%);
+}
+
+}
+
+@media (max-width: 819px) {
+
+    .lay4b{
+        font-size: .7rem;
+    }
+
+
+.footlink1_1{
+    font-size: 0.5em;
+}
+
+}
