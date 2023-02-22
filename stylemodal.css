@@ -10,8 +10,8 @@
 
 .showimg{  
     /* display: block;   */
-    height: 80vh;
-    width: 54vh;
+    height: 70vh;
+    width: 42vh;
     border-radius: 20px;    
     background: gray;
     position: fixed;
@@ -90,13 +90,13 @@
     height: 70%;
     width: 50%;
     background: greenyellow;
-    color: white;
+    color: black;
     text-decoration: none;
     text-align:justify;        
     border-radius: 20px;
     font-family: 'calibri';
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 2vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,7 +113,7 @@
 }
 
 .word{
-    font-size: 1.4em;
+    font-size: 2.8vh;
 }
 
 .contain_header{
@@ -140,7 +140,7 @@
 }
 
 .headerlogoimg{
-height: 80%;
+height: 60%;
 width: auto;
 }
 
@@ -161,7 +161,7 @@ width: auto;
     width: 100%;
     color: white;
     font-family: 'calibri';
-    font-size: 1.8em;
+    font-size: 2.8vh;
     font-weight: bold;
     /* background: red; */
     display: flex;    
@@ -175,7 +175,7 @@ width: auto;
     width: 100%;
     color: yellowgreen;
     font-family: 'calibri';
-    font-size: 1.5em;
+    font-size: 2.5vh;
     font-weight: bold;
     /* background: red; */
     display: flex;    
@@ -185,9 +185,183 @@ width: auto;
 
 .contain_data{
     height: 60%;
-    width: auto;
+    width: 100%;
     background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
+
+.part1{
+height: 30%;
+width: 95%;
+background: rgba(128, 128, 128, 0.3);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+margin-top: 5px;
+}
+
+.part1_1{
+    height: 40%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* background: rgba(128, 128, 128, 0.418); */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    color:black;
+    font-family: 'calibri';
+    font-size: 2vh;
+    font-weight: bold;
+}
+.p1_1a{
+    /* background: red; */
+    height: 100%;
+    width: 45%;    
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-family: 'calibri';
+    font-size: 2vh;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+.p1_1b{
+    /* background: black; */
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: left;    
+    font-family: 'calibri';
+    font-size: 2.2vh;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.801);
+}
+
+
+.p1_1c{
+    height: 100%;
+    width:fit-content;
+    padding-left: 2vh;
+    /* background: red; */
+}
+
+.p1_1d{
+    height: 100%;
+    width: fit-content;
+    padding-left: 3vh;
+    /* background: blue; */
+}
+
+.part1_2{
+    height: 30%;
+    width: 100%;
+    /* background: tomato; */
+    color:black;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: left;
+    font-family: 'calibri';
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.part1_3{
+    height: 30%;
+    width: 100%;
+    /* background: skyblue; */
+    color:black;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+    justify-content: left;
+    font-family: 'calibri';
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.part2{
+    height: 70%;
+    width: 95%;
+    /* background: red; */
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;   
+}
+
+.part2_1{
+    width: 95%;
+    height: 25%;    
+    --color:rgba(0, 0, 0, 0.65);    
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+.part2_2{
+    width: 95%;
+    height: 25%;    
+    --color:rgba(0, 0, 0, 0.65);  
+    display: flex;    
+    align-items: center;
+    justify-content: center;  
+}
+.part2_3{
+    width: 95%;
+    height: 25%;    
+    --color:rgba(0, 0, 0, 0.65);    
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+.part2_4{
+    width: 95%;
+    height: 25%;    
+    --color:rgba(0, 0, 0, 0.65);    
+    margin: 0;
+    padding: 0;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+.form_input{
+    height: 55%;
+    width: 70%;
+    font-family: 'calibri';
+    font-size: 2.2vh;
+    color: black;        
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.form_input:focus {
+    background-color:yellowgreen;        
+  }
+
+.form_label{
+    height: 55%;
+    width: 30%;
+    color:rgba(0, 0, 0, 0.801);
+    cursor: pointer;    
+    font-family: 'calibri';
+    font-weight: bold;
+    font-size: 1.9vh;        
+    /* background: blue; */
+    display: flex;    
+    align-items:center;
+    justify-content: left;
+}
+
 
 .contain_btn2{
     height: 20%;
@@ -223,7 +397,7 @@ width: auto;
     /* background: yellow; */
     color:white;
     font-family: 'calibri';
-    font-size: 1.2em;
+    font-size: 1.5vh;
     font-weight: bold;
     text-align: center;
 }
@@ -239,6 +413,15 @@ width: auto;
     border-radius: 20px;
 }
 
+.btnCreditoa{
+    height: 100%;
+    width: 100%;
+    display: flex;    
+    align-items:center;
+    justify-content: center;    
+    flex-direction: column;    
+}
+
 .btnCredito_1{
     height: 50%;
     width: auto;
@@ -251,7 +434,7 @@ width: auto;
     /* background: yellow; */
     color:white;
     font-family: 'calibri';
-    font-size: 1.2em;
+    font-size: 1.6vh;
     font-weight: bold;
     text-align: center;
     
@@ -259,6 +442,147 @@ width: auto;
 .img2{
     height: 99%;
     width: auto;
+}
+
+/* Pago con Tarjeta ::: Form Culqi */
+.ntarjeta{
+    height: 25%;
+    width: 100%;
+    display: flex;    
+    align-items:center;
+    justify-content: center;
+    /* background: rgb(212, 49, 49); */
+}
+
+.pc1a{
+    height: 30%;
+    width: 40%;
+    /* background: rgb(59, 62, 228); */
+    color:rgba(0, 0, 0, 0.7);
+    font-family: 'calibri';
+    font-size: 2vh;
+    font-weight: bold;
+    display: flex;    
+    align-items:center;
+    justify-content: left;
+}
+
+.pc1b{
+    height: 30%;
+    width: 50%;
+    border-radius: 5px;    
+    font-family: 'calibri';
+    font-size: 2vh;
+    font-weight: bold;
+
+}
+
+.fvencimiento{
+    height: 25%;
+    width: 90%;
+    display: flex;    
+    align-items:center;
+    justify-content: left;
+    /* background: rgb(40, 145, 54); */
+}
+
+.pc2a{
+    height: 30%;
+    width: 45%;
+    /* background: rgb(59, 62, 228); */
+    color:rgba(0, 0, 0, 0.7);
+    font-family: 'calibri';
+    font-size: 2vh;
+    font-weight: bold;
+    display: flex;    
+    align-items:center;
+    justify-content: left;
+}
+
+.pc2b{
+    height: 30%;
+    width: 20%;
+    border-radius: 5px;    
+    font-family: 'calibri';
+    font-size: 2vh;
+    font-weight: bold;   
+}
+
+
+.pc2c{
+    height: 30%;
+    width: 20%;
+    /* background: rgb(59, 62, 228); */
+    color:rgba(0, 0, 0, 0.7);
+    font-family: 'calibri';
+    font-size: 2vh;
+    font-weight: bold;
+    display: flex;    
+    align-items:center;
+    justify-content: center;
+}
+
+.pc2d{
+    height: 30%;
+    width: 20%;
+    border-radius: 5px;    
+    font-family: 'calibri';
+    font-size: 2vh;
+    font-weight: bold;
+}
+
+.ncuotas{
+    height: 25%;
+    width: 90%;
+    display: flex;    
+    align-items:center;
+    justify-content: left;
+    /* background: rgb(52, 32, 228); */
+}
+
+.pc3a{
+    height: 30%;
+    width: 45%;
+    /* background: rgb(59, 62, 228); */
+    color:rgba(0, 0, 0, 0.7);
+    font-family: 'calibri';
+    font-size: 2vh;
+    font-weight: bold;
+    display: flex;    
+    align-items:center;
+    justify-content: left;
+}
+
+.pc3b{
+    height: 30%;
+    width: 30%;
+    border-radius: 5px;    
+    font-family: 'calibri';
+    font-size: 2vh;
+    font-weight: bold;   
+    display: flex;    
+    align-items:center;
+    justify-content: left;
+}
+
+.btnpagoculqi{
+    height: 25%;
+    width: 100%;
+    display: flex;    
+    align-items:center;
+    justify-content: center;    
+    /* background: rgb(224, 21, 191); */
+}
+
+.btnpagoculqi_{
+    height: 60%;
+    width: 50%;
+    border-radius: 10px;
+    color: white;
+    font-size: 2vh;
+    font-weight: bold;
+    background: rgb(0, 0, 0);
+    cursor: pointer;
 }
 
 .culqi{
@@ -272,7 +596,7 @@ width: auto;
 }
 
 .culqiimg{
-    height: 40%;
+    height: 30%;
     width: auto;
 }
 
@@ -435,4 +759,21 @@ width: auto;
     top:-7%;
     left: 42%;
     cursor: pointer;
+}
+
+
+#layout1{
+    display: none;
+}
+
+#layout2{
+    display: none;
+}
+
+#layout3{
+    display: none;
+}
+
+#layout4{
+    display: none;
 }

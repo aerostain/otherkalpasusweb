@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="stylemodal.css">
     <link rel="stylesheet" href="whatsapp.css">
-    <title>Document</title>
+    <script src="script.js"></script>
+    <title>Kalpasus Perú</title>
 </head>
 <body>
 
@@ -30,7 +31,7 @@
 <section class="lay0" id="nav">
     <div class="lay1">
         <div class="lay2">
-        <a href="" class="lay3">
+        <a href="javascript:openlayout1()" class="lay3">
             <div class="lay4a"><img src="iconnav/1_Eventos.png"></div>
             <div class="lay4b">Eventos</div>
         </a>        
@@ -88,7 +89,7 @@
     </div>
 </section>
 
-<!-- <section class="showimg0">
+<section class="showimg0" id="layout1">
 <div class="showimg">
     <div class="contain_img">
         <img src="img/12.jpg" class="imgshow">
@@ -96,13 +97,13 @@
         <div class="fi"><a href="" class="fimg"><img src="img/izq.png"></a></div>  
     </div>
     <div class="contain_btn">
-        <a href="" class="btnshow">Desde <span class="word"> &nbspS/.99 &nbsp</span>c/u</a>
+        <a href="javascript:openlayout2()" class="btnshow">Desde <span class="word"> &nbspS/.99 &nbsp</span>c/u</a>
     </div>
-    <a href=""><img src="img/cancel.png" class="btncancel"></a>
+    <a href="javascript:closelayout1()"><img src="img/cancel.png" class="btncancel"></a>
 </div>  
-</section> -->
+</section>
 
-<!-- <section class="showimg0">
+<section class="showimg0" id="layout2">
 <div class="showimg">
     <div class="contain_header">
         <div class="headerlogo"><img src="img/Logo Kalpasus_V1.0_cuadrado.png" class="headerlogoimg"></div>
@@ -110,11 +111,40 @@
             <div class="headertext_1">
                 Huayhuash Paso Siula <br/>  2 días
             </div>
-            <div class="headertext_2">Sab 14 - Dom 15 Marzo 23</div>
+            <div class="headertext_2">Sab 14 - Dom 15 Mar23</div>
         </div>
     </div>
     <div class="contain_data">
+        <div class="part1">
+            <div class="part1_1">
+                <label class="p1_1a">N° de participantes</label><label class="p1_1b">1</label><img src="img/minus_.png" class="p1_1c"><img src="img/plus_.png" class="p1_1d">
+            </div>
+            <div class="part1_2">
+                <label class="p1_1a">Precio Individual</label><label class="p1_1b">S/.99</label>
+            </div>
+            <div class="part1_3">
+                <label class="p1_1a">Total a Pagar</label><label class="p1_1b">S/.990</label>
+            </div>
+        </div>
+        <div class="part2">
+            <div class="part2_1">
+                <label for="name1" class="form_label">Nombre y Apellidos</label>
+                <input type="text" id="name1" class="form_input" placeholder=" ">                
+            </div>
+            <div class="part2_2">
+                <label for="name2" class="form_label">E-mail</label>
+                <input type="text" id="name2" class="form_input" placeholder=" ">                
+            </div>
+            <div class="part2_3">
+                <label for="name3" class="form_label">DNI / Pasaporte</label>
+                <input type="text" id="name3" class="form_input" placeholder=" ">                
+            </div>
+            <div class="part2_4">
+                <label for="name4" class="form_label"># de Celular</label>
+                <input type="text" id="name4" class="form_input" placeholder=" ">                
+            </div>
 
+        </div>
     </div>
     <div class="contain_btn2">
         <div class="btnAhorros">
@@ -122,15 +152,18 @@
             <div class="btnAhorros_2">Depósito o Transferencia Bancaria</div>
         </div>
         <div class="btnCredito">
+            <a href="javascript:openlayout3()" class="btnCreditoa">
             <div class="btnCredito_1"><img src="img/credit-card.png" class="img2"></div>
             <div class="btnCredito_2">Tarjeta de Débito / Crédito</div>
+            </a>    
         </div>
     </div>
-    <a href=""><img src="img/cancel.png" class="btncancel"></a>
+    <a href="javascript:closelayout2()"><img src="img/cancel.png" class="btncancel"></a>
 </div>  
-</section> -->
+</section>
 
-<!-- <section class="showimg0">
+
+<section class="showimg0" id="layout3">
     <div class="showimg">
         <div class="contain_header">
             <div class="headerlogo"><img src="img/Logo Kalpasus_V1.0_cuadrado.png" class="headerlogoimg"></div>
@@ -142,18 +175,30 @@
             </div>
         </div>
         <div class="contain_data">
-    
+            <div class="ntarjeta">
+                <label for="ntarjeta_" class="pc1a">Número de Tarjeta</label><input type="text" name="ntarjeta_" class="pc1b">
+            </div>
+            <div class="fvencimiento" class="pc2b">
+                <label for="ntarjeta_" class="pc2a">Fecha de Vencimiento</label><input type="text" name="ntarjeta_" class="pc2b">
+                <label for="ntarjeta_" class="pc2c">CVC</label><input type="text" name="ntarjeta_" class="pc2d">
+            </div>
+            <div class="ncuotas">
+                <label for="ntarjeta_" class="pc3a">Número de Cuotas</label><input type="text" name="ntarjeta_" class="pc3b">
+            </div>
+            <div class="btnpagoculqi">
+            <button class="btnpagoculqi_" onclick="openlayout4()">Pagar S/.99 </button>
+            </div>
         </div>
         <div class="contain_btn2">
             <div class="culqi">
                 <img src="img/Culqi logo.png" class="culqiimg">
             </div>
         </div>
-        <a href=""><img src="img/cancel.png" class="btncancel"></a>
+        <a href="javascript:closelayout3()"><img src="img/cancel.png" class="btncancel"></a>
     </div>  
-    </section> -->
+    </section>
 
- <!--<section class="showimg0">
+ <section class="showimg0" id="layout4">
     <div class="msgfshowimg">
         <div class="msgfheader">
             <div class="msgfhlogo"><img src="img/Logo Kalpasus_V1.0_cuadrado.png" class="msgfhlogoimg"></div>
@@ -186,9 +231,9 @@
                 </div>                           
             </div>
         </div>
-        <a href=""><img src="img/cancel.png" class="btncancelmsgf"></a>
+        <a href="javascript:closelayout4()"><img src="img/cancel.png" class="btncancelmsgf"></a>
     </div>  
-    </section> -->
+    </section>
 
 </body>
 </html>
