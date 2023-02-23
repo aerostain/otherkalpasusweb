@@ -34,8 +34,8 @@
 }
 
 .imgshow{
-    height:100%;
-    width: 100%;
+    height:fit-content;
+    width:100%;
     background: yellow;
     border-radius: 10px 10px 0 0 ;
 }

@@ -186,6 +186,66 @@ body::-webkit-scrollbar {
 height: 180vh;
 }
 
+.grid{
+    width: 95vw;           
+    display: grid;
+    grid-template-columns: repeat(5,18vw);
+    grid-auto-rows: 26vw;
+    padding: 1vw;
+    gap: 2vw;          
+}
+/* .grid > div{
+    border: 1px solid #4de710;
+} */
+
+.l0{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    /* background: blue; */
+}
+
+.l1{
+    height: 80%;
+    width: 100%;
+    border-radius: 5px 5px 0 0 ;
+    /* background: black;     */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.l1img{
+    height:100%;
+    width: 100%;
+    background: yellow;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.l2{
+    height: 20%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btngrid{
+    height: 70%;
+    width: 80%;
+    background: greenyellow;
+    color: black;    
+    border-radius: 5px;
+    font-family: 'calibri';
+    font-weight: bold;
+    font-size: 2.2vh;    
+    cursor: pointer;
+}
+
 .footer{
     height: 15vh;
     width: auto;
@@ -238,6 +298,7 @@ font-family: 'calibri';
 font-size: 1.2em;
 color: white;
 }
+
 .footlink1_2{
     height: 60%;
     width: 100%;
@@ -352,6 +413,23 @@ color: white;
     .body{
         height: 180vh;
         }
+
+
+    .grid{
+        width: 95vw;           
+        display: grid;
+        grid-template-columns: repeat(3,30vw);
+        grid-auto-rows: 44vw;        
+        padding: 2.5vw;
+        gap: 2.5vw;                                
+    }
+    .grid > div{
+        border: 1px solid #0000002c;
+    }
+
+    .btngrid{
+        font-size: 1.5vh;  
+    }
         
     .footer{
     height: 10vh;
