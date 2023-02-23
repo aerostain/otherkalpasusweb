@@ -423,9 +423,9 @@ color: white;
         padding: 2.5vw;
         gap: 2.5vw;                                
     }
-    .grid > div{
+    /* .grid > div{
         border: 1px solid #0000002c;
-    }
+    } */
 
     .btngrid{
         font-size: 1.5vh;  
