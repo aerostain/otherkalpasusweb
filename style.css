@@ -23,7 +23,7 @@ body::-webkit-scrollbar {
 }
 
 .header{
-    background: url(img/backc.jpg) no-repeat center center;
+    background: url(img/Fondo.jpg) no-repeat center center;
     background-size:cover;
     height: 100vh;
     margin: 0;
@@ -69,7 +69,7 @@ body::-webkit-scrollbar {
         }
 
     .header{
-        background: url(img/backc.jpg) no-repeat center center;
+        background: url(img/Fondo.jpg) no-repeat center center;
         background-size:cover;
         height: 30vh;
         margin: 0;
